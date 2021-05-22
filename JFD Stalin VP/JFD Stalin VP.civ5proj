@@ -1,0 +1,636 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Deploy" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <ProjectGuid>{901a4168-3e5c-44f6-8f77-3206db28ce26}</ProjectGuid>
+    <Name>JFD's Civilizations - Soviet Union (Joseph Stalin) for Vox Populi</Name>
+    <Guid>bdbd5b15-7e4d-4ecd-8b15-54c7e80a5276</Guid>
+    <ModVersion>1</ModVersion>
+    <Stability>Stable</Stability>
+    <Teaser>Adds [COLOR_CYAN]Soviet Union under Joseph Stalin[ENDCOLOR]. Click for details.</Teaser>
+    <Description>SOVIET UNION (JOSEPH STALIN)[NEWLINE][NEWLINE]UNIQUE TRAIT: WARSAW PACT[NEWLINE][ICON_BULLET]Enemy units may take extra damage in your borders, or in the borders of allied City-States, or Civilizations with whom you share an Ideology. Earn [ICON_INFLUENCE] Influence per turn with City-States from which you could demand tribute.[NEWLINE][NEWLINE]UNIQUE BUILDING: PEOPLE'S COMMISSARIAT (POLICE STATION)[NEWLINE][ICON_BULLET]The People's Commissariat is the unique replacement for the Police Station for the Soviet Union. It increases the city's [ICON_PRODUCTION] Production based on the number of Allied City-States that the Soviet Union has, increasing if that city is the Capital - not unlike the normal yield bonuses afforded by City-State alliances. Maintaining a close sphere of influence will guarantee a steady flow of production. It costs an additional Maintenance, however.[NEWLINE][NEWLINE]UNIQUE UNIT: TS-2 (TANK)[NEWLINE][ICON_BULLET]The IS-2 is the unique Tank replacement for the Soviet Union. Slightly more defensive than the Tank, the IS-2 is has a Combat Bonus (15%) against fortified enemies, particularly if they are Gun or Armoured Units (10%). Use IS-2 to quickly break through enemy lines.</Description>
+    <Authors>JFD, Janboruta, Leugi</Authors>
+    <SpecialThanks>The Lohoped</SpecialThanks>
+    <Categories>$Categories$</Categories>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <MinCompatibleSaveVersion>0</MinCompatibleSaveVersion>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <SupportsMac>true</SupportsMac>
+    <ReloadAudioSystem>true</ReloadAudioSystem>
+    <ReloadLandmarkSystem>false</ReloadLandmarkSystem>
+    <ReloadStrategicViewSystem>true</ReloadStrategicViewSystem>
+    <ReloadUnitSystem>true</ReloadUnitSystem>
+    <HideSetupGame>false</HideSetupGame>
+    <Homepage>
+    </Homepage>
+    <AssemblyName>JFD Stalin VP</AssemblyName>
+    <RootNamespace>JFD Stalin VP</RootNamespace>
+    <ModProperties>
+    </ModProperties>
+    <ModDependencies />
+    <ModReferences>
+      <Association>
+        <Type>Mod</Type>
+        <Name>JFD's Cultural Diversity (Core)</Name>
+        <Id>31a31d1c-b9d7-45e1-842c-23232d66cd47</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>Yet (not) Another Earth Map Pack</Name>
+        <Id>36e88483-48fe-4545-b85f-bafc50dde315</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+      <Association>
+        <Type>Mod</Type>
+        <Name>(2) Community Balance Overhaul</Name>
+        <Id>8411a7a8-dad3-4622-a18e-fcc18324c799</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModReferences>
+    <ModBlockers>
+      <Association>
+        <Type>Mod</Type>
+        <Name>JFD's Civilizations - Soviet Union (Joseph Stalin)</Name>
+        <Id>e85d229f-2e34-4ebf-8314-b29876e119a2</Id>
+        <MinVersion>0</MinVersion>
+        <MaxVersion>999</MaxVersion>
+      </Association>
+    </ModBlockers>
+    <ModActions>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Core/SovietUnionStalin_ArtDefines.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Core/SovietUnionStalin_GameDefines.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Core/SovietUnionStalin_GameText.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Core/SovietUnionStalin_ModSupport.sql</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>Core/SovietUnionStalin_ModSupportCP.sql</FileName>
+      </Action>
+    </ModActions>
+    <ModContent>
+      <Content>
+        <Type>InGameUIAddin</Type>
+        <Name>JFD_SovietUnionStalin_Functions</Name>
+        <Description />
+        <FileName>Lua/JFD_Civs_SovietUnionStalin_Functions.lua</FileName>
+      </Content>
+    </ModContent>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Package Only' ">
+    <PackageMod>true</PackageMod>
+    <DeployMod>false</DeployMod>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Deploy Only' ">
+    <PackageMod>false</PackageMod>
+    <DeployMod>true</DeployMod>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Art" />
+    <Folder Include="Art\Graphics" />
+    <Folder Include="Art\Graphics\Animations and Effects" />
+    <Folder Include="Art\Graphics\IS-2" />
+    <Folder Include="Art\Icons" />
+    <Folder Include="Art\Leaderscene" />
+    <Folder Include="Art\Maps" />
+    <Folder Include="Audio" />
+    <Folder Include="Audio\Themes" />
+    <Folder Include="Core" />
+    <Folder Include="Lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Art\Graphics\Animations and Effects\civ5artdefines_viseffects.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_attack_city_to_run.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_attack_to_run_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_bombard_defend_loop_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_civilian_activate_captured.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_civilian_death_final.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_civilian_enter_bombard_defend.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_civilian_state_01.fsmxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_combat_ready_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_death_final_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_death_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_enter_bombard_defend_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_enter_combat_ready_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_enter_fortify.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_enter_sleep_civilian.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_fidgets_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_fortify_fidget_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_fortify_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_fortify_leave_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_fortify_to_idle_a.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_idle_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_idle_offset_continue_true_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_leave_bombard_defend_trans_idle_a_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_leave_combat_ready.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_melee_attacks.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_modern_ship_attacks.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_attack_city_to_run.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_attack_to_run_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_bombard_defend_loop_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_civilian_activate_captured.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_civilian_death_final.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_civilian_enter_bombard_defend.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_combat_ready_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_death_final_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_death_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_enter_bombard_defend_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_enter_combat_ready_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_enter_fortify.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_enter_sleep_civilian.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_fidgets_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_fortify_fidget_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_fortify_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_fortify_leave_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_fortify_to_idle_a.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_idle_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_idle_offset_continue_true_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_leave_bombard_defend_trans_idle_a_graph.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_leave_combat_ready.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_melee_attacks.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_modern_ship_attacks.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_running_loop.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_run_no_charge_loop.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_run_start_civilian.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_start_running.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_stop_running.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_stop_running_civilian.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_ms_transitions_for_idles.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_running_loop.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_run_no_charge_loop.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_run_start_civilian.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_start_running.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_stop_running.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_stop_running_civilian.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_aim_transitions_for_idles.dge">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_antiair_vehicle_1gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_antiair_vehicle_2gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_antiair_vehicle_3gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_antiair_vehicle_4gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_artillery.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_battleship.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_battleship_4turret.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_Cruiser.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_destroyer.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_EarlyJet.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_EarlyTank_1gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_EarlyTank_2gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_fighter_2Propellers.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_infantry.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_jetfighter.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_Katyusha.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_modernarmor.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_paratrooper.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_paratrooper_mg.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_tank.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_tank_lightfire.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_tank_mg_1gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_fx_triggers_tank_mg_2gun.ftsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_mechanized_aim_state_01.fsmxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\edited_modern_ship_aim_state_01.fsmxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\Animations and Effects\[Readme].txt">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\IS-2\IS-2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\IS-2\IS-2.fxsxml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\IS-2\IS-2.gr2">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\IS-2\no_gloss.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Graphics\IS-2\sv_IS2.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\Tomatekh_PromotionAtlas_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\Tomatekh_PromotionAtlas_32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\Tomatekh_PromotionAtlas_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\Tomatekh_PromotionAtlas_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\JFD_SovietUnionStalin_Diplo.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Leaderscene\JFD_SovietUnionStalin_Scene.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_UnitFlagAtlas_32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_AlphaAtlas_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_AlphaAtlas_16.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_AlphaAtlas_24.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_AlphaAtlas_32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_AlphaAtlas_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_AlphaAtlas_48.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_AlphaAtlas_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_AlphaAtlas_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_IconAtlas_128.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_IconAtlas_256.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_IconAtlas_32.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_IconAtlas_45.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_IconAtlas_64.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Icons\JFD_SovietUnionStalin_IconAtlas_80.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Maps\JFD_DOM_SovietUnionStalin.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Art\Maps\JFD_MapSovietUnionStalin512.dds">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Audio\Themes\JFD_SovietUnionStalin_Peace.mp3">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Audio\Themes\JFD_SovietUnionStalin_War.mp3">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="Core\SovietUnionStalin_ArtDefines.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Core\SovietUnionStalin_GameDefines.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Core\SovietUnionStalin_ModSupport.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Core\SovietUnionStalin_GameText.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Core\SovietUnionStalin_ModSupportCP.sql">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Credits.txt">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="Lua\JFD_Civs_SovietUnionStalin_Functions.lua">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Firaxis\ModBuddy\Civ5Mod.targets" />
+</Project>

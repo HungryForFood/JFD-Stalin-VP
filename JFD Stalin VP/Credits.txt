@@ -1,0 +1,65 @@
+-- Credits
+-- Author: JFD
+-- DateCreated: 1/6/2018 1:43:31 PM
+----------------
+JFD: 
+----------------
+	Author
+	Coding 
+	Design 
+	Research 
+	Writing
+----------------
+Leugi: 
+----------------
+	Art (Josef Stalin Leaderscene)
+----------------
+Janboruta: 
+----------------
+	Art (Soviet Union Map; Josef Stalin Icon; IS-2 Icon; IS-2 Flag; Commissariat Icon)
+----------------
+TheLohoped: 
+----------------
+	Research (Soviet Union City-List)
+----------------
+bernie14: 
+----------------
+	Graphics (IS-2 Model)
+	https://forums.civfanatics.com/resources/french-and-german-cavalry.22595/
+----------------
+Whoward:
+----------------
+	Utilities (PlotIterators.lua)
+	https://forums.civfanatics.com/threads/border-and-area-plot-iterators.474634/
+----------------
+Creative Assembly: 
+----------------
+	Music (Napoleon: Total War OST Track 36: The End (Credits Music))
+	https://www.youtube.com/watch?v=zSQLFlNAkKU
+----------------
+Andreas Waldeloft: 
+----------------
+	Music (Hearts of Iron IV - The Great Patriotic War)
+	https://www.youtube.com/watch?v=6PxlJLUqFzY
+----------------
+James Hannigan: 
+----------------
+	Music (Journey to Pugachev)
+	https://www.youtube.com/watch?v=XBjl-xWPgAk
+----------------
+Britannica.com: 
+----------------
+	Pedias
+	https://www.britannica.com/place/Soviet-Union
+----------------
+Civ IV Wiki.com: 
+----------------
+	Pedias
+	https://civilization.fandom.com/wiki/Stalin_(Civ4)
+----------------
+Wikipedia.com: 
+----------------
+	Pedias
+	https://en.wikipedia.org/wiki/People%27s_Commissariat
+--------------------------------------------------------------
+--------------------------------------------------------------

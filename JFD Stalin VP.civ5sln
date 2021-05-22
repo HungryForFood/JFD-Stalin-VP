@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# ModBuddy Solution File, Format Version 11.00
+Project("{157562c4-9ee5-49e4-9f78-55b0eab854fe}") = "JFD Stalin VP", "JFD Stalin VP\JFD Stalin VP.civ5proj", "{901a4168-3e5c-44f6-8f77-3206db28ce26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|x86 = Default|x86
+		Deploy Only|x86 = Deploy Only|x86
+		Package Only|x86 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{901a4168-3e5c-44f6-8f77-3206db28ce26}.Default|x86.ActiveCfg = Default|x86
+		{901a4168-3e5c-44f6-8f77-3206db28ce26}.Default|x86.Build.0 = Default|x86
+		{901a4168-3e5c-44f6-8f77-3206db28ce26}.Deploy Only|x86.ActiveCfg = Deploy Only|x86
+		{901a4168-3e5c-44f6-8f77-3206db28ce26}.Deploy Only|x86.Build.0 = Deploy Only|x86
+		{901a4168-3e5c-44f6-8f77-3206db28ce26}.Package Only|x86.ActiveCfg = Package Only|x86
+		{901a4168-3e5c-44f6-8f77-3206db28ce26}.Package Only|x86.Build.0 = Package Only|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

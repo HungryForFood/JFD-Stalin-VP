@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 1/4/2014 8:45:16 AM -->
+<GameData>
+	<Language_en_US>
+		<!--MOD-->
+		<Row Tag="TXT_KEY_MOD_JFD_SOVIET_UNION_STALIN_DESCRIPTION">
+			<Text>SOVIET UNION (JOSEPH STALIN)[NEWLINE][NEWLINE]UNIQUE TRAIT: WARSAW PACT[NEWLINE][ICON_BULLET]Enemy units may take extra damage in your borders, or in the borders of allied City-States, or Civilizations with whom you share an Ideology. Earn [ICON_INFLUENCE] Influence per turn with City-States from which you could demand tribute.[NEWLINE][NEWLINE]UNIQUE BUILDING: PEOPLE'S COMMISSARIAT (POLICE STATION)[NEWLINE][ICON_BULLET]The People's Commissariat is the unique replacement for the Police Station for the Soviet Union. It increases the city's [ICON_PRODUCTION] Production based on the number of Allied City-States that the Soviet Union has, increasing if that city is the Capital - not unlike the normal yield bonuses afforded by City-State alliances. Maintaining a close sphere of influence will guarantee a steady flow of production. It costs an additional Maintenance, however.[NEWLINE][NEWLINE]UNIQUE UNIT: TS-2 (TANK)[NEWLINE][ICON_BULLET]The IS-2 is the unique Tank replacement for the Soviet Union. Slightly more defensive than the Tank, the IS-2 is has a Combat Bonus (15%) against fortified enemies, particularly if they are Gun or Armoured Units (10%). Use IS-2 to quickly break through enemy lines.</Text>
+		</Row>
+		<!--SOVIET UNION-->
+		<Row Tag="TXT_KEY_CIV_JFD_SOVIET_UNION_STALIN_ADJECTIVE">
+			<Text>Soviet</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_SOVIET_UNION_STALIN_DESC">
+			<Text>Soviet Empire</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV_JFD_SOVIET_UNION_STALIN_SHORT_DESC">
+			<Text>The Soviet Union</Text>
+			<Plurality>2</Plurality>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_SOVIET_UNION_STALIN_HEADING_1">
+			<Text>Geography</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_SOVIET_UNION_STALIN_TEXT_1">
+			<Text>During the period of its existence, the Union of Soviet Socialist Republics was by area the world’s largest country. It was also one of the most diverse, with more than 100 distinct nationalities living within its borders. The majority of the population, however, was made up of East Slavs (Russians, Ukrainians, and Belorussians); these groups together made up more than two-thirds of the total population in the late 1980s.[NEWLINE][NEWLINE]At its greatest extent, between 1946 and 1991 (the figures and descriptions given below refer to this period), the U.S.S.R. covered some 8,650,000 square miles (22,400,000 square kilometres), seven times the area of India and two and one-half times that of the United States. The country occupied nearly one-sixth of the Earth’s land surface, including the eastern half of Europe and roughly the northern third of Asia.[NEWLINE][NEWLINE]The U.S.S.R. extended more than 6,800 miles (10,900 kilometres) from east to west, covering 11 of the world’s 24 time zones. The most westerly point was on the Baltic Sea, near Kaliningrad; the easternmost was Cape Dezhnev on the Bering Strait, nearly halfway around the world. From north to south the U.S.S.R. extended some 2,800 miles from Cape Chelyuskin to Kushka on the Afghan border. Nearly half the territory of the U.S.S.R. was north of 60° N, at the same latitude as Alaska, Baffin Island, and Greenland.[NEWLINE][NEWLINE]In addition to having the world’s longest coastline, the U.S.S.R. had the longest frontiers. To the north the country was bounded by the seas of the Arctic Ocean, and to the east were the seas of the Pacific. On the south the U.S.S.R. was bordered by North Korea, Mongolia, China, Afghanistan, Iran, and Turkey. On the southern frontier there were three seas: the Caspian Sea, the world’s largest inland sea, as well as the almost completely landlocked Black Sea and Sea of Azov. Romania, Hungary, Czechoslovakia, Poland, Finland, and Norway lay to the west.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_SOVIET_UNION_STALIN_HEADING_2">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_JFD_SOVIET_UNION_STALIN_TEXT_2">
+			<Text>During the period of its existence, the Union of Soviet Socialist Republics was by area the world’s largest country. It was also one of the most diverse, with more than 100 distinct nationalities living within its borders. The majority of the population, however, was made up of East Slavs (Russians, Ukrainians, and Belorussians); these groups together made up more than two-thirds of the total population in the late 1980s.[NEWLINE][NEWLINE]At its greatest extent, between 1946 and 1991 (the figures and descriptions given below refer to this period), the U.S.S.R. covered some 8,650,000 square miles (22,400,000 square kilometres), seven times the area of India and two and one-half times that of the United States. The country occupied nearly one-sixth of the Earth’s land surface, including the eastern half of Europe and roughly the northern third of Asia.[NEWLINE][NEWLINE]The U.S.S.R. extended more than 6,800 miles (10,900 kilometres) from east to west, covering 11 of the world’s 24 time zones. The most westerly point was on the Baltic Sea, near Kaliningrad; the easternmost was Cape Dezhnev on the Bering Strait, nearly halfway around the world. From north to south the U.S.S.R. extended some 2,800 miles from Cape Chelyuskin to Kushka on the Afghan border. Nearly half the territory of the U.S.S.R. was north of 60° N, at the same latitude as Alaska, Baffin Island, and Greenland.[NEWLINE][NEWLINE]In addition to having the world’s longest coastline, the U.S.S.R. had the longest frontiers. To the north the country was bounded by the seas of the Arctic Ocean, and to the east were the seas of the Pacific. On the south the U.S.S.R. was bordered by North Korea, Mongolia, China, Afghanistan, Iran, and Turkey. On the southern frontier there were three seas: the Caspian Sea, the world’s largest inland sea, as well as the almost completely landlocked Black Sea and Sea of Azov. Romania, Hungary, Czechoslovakia, Poland, Finland, and Norway lay to the west.[NEWLINE][NEWLINE]The U.S.S.R. was the successor to the Russian Empire of the tsars. Following the 1917 Revolution, four socialist republics were established on the territory of the former empire: the Russian and Transcaucasian Soviet Federated Socialist Republics and the Ukrainian and Belorussian Soviet Socialist Republics. On Dec. 30, 1922, these constituent republics established the U.S.S.R. Additional union republics (Soviet Socialist Republics) were set up in subsequent years: the Turkmen and Uzbek S.S.R.’s in 1924, the Tadzhik S.S.R. in 1929, and the Kazakh and Kirgiz S.S.R.’s in 1936. In that year the Transcaucasian Republic was abolished and its territory was divided between three new republics: the Armenian, Azerbaijan, and Georgian S.S.R.’s. In 1940 the Karelo-Finnish, Moldavian, Estonian, Latvian, and Lithuanian S.S.R.’s were established. The Karelo-Finnish S.S.R. became an autonomous republic in 1956, leaving a total of 15 union republics (soyuznye respubliki). In addition to these, the U.S.S.R. as of 1990 was made up of 20 autonomous republics (avtonomnye respubliki), 8 autonomous provinces (avtonomnye oblasti), 10 autonomous districts (avtonomnye okruga), 6 regions (kraya), and 114 provinces (oblasti).[NEWLINE][NEWLINE]Under the constitution adopted in the 1930s and modified down to October 1977, the political foundation of the U.S.S.R. was formed by the Soviets (Councils) of People’s Deputies. These existed at all levels of the administrative hierarchy, with the Soviet Union as a whole under the nominal control of the Supreme Soviet of the U.S.S.R., located in Moscow. This body had two chambers—the Soviet of the Union, with 750 members elected on a single-member constituency basis; and the Soviet of Nationalities, with 750 members representing the various political divisions: 32 from each union republic, 11 from each autonomous republic, 5 from each autonomous region, and 1 from each autonomous district. In elections to these bodies, the voters were rarely given any choice of candidate other than those presented by the Communist Party of the Soviet Union (CPSU), which, until the amendment of Article 6 of the constitution in March 1990, was the “leading and guiding force of Soviet society and the nucleus of its political system.” In theory, all legislation required the approval of both chambers of the Supreme Soviet; in practice, all decisions were made by the small group known as the Presidium of the Supreme Soviet, itself strongly influenced by the Politburo of the CPSU, and were unanimously approved by the deputies. The role of the soviets in the individual republics and other territories was primarily to put into effect the decisions made by the Supreme Soviet of the U.S.S.R.[NEWLINE][NEWLINE]The political system was thus authoritarian and highly centralized, and this also applied to the economic system. The economic foundation of the U.S.S.R. was “Socialist ownership of the means of production, distribution, and exchange,” and the economy of the entire country was controlled by a series of five-year plans that set targets for all forms of production.[NEWLINE][NEWLINE]Dramatic changes, both political and economic, occurred during the late 1980s and early ’90s, ushered in by the adoption of perestroika (“restructuring”) and glasnost (“openness”). On the economic side the planned, highly centralized command economy was to be replaced by the progressive introduction of elements of a market economy, a change that proved difficult to achieve and was accompanied by declining production in many sectors and increasing distribution problems. In the political sphere, amendments to the constitution in 1988 replaced the old Supreme Soviet with the Congress of People’s Deputies of the U.S.S.R. The new congress had 2,250 members; one-third of these were elected on a constituency basis, one-third represented the political territories (as in the old Supreme Soviet), and the remaining third came from “all-union social organizations” such as the trade unions, the CPSU, and the Academy of Sciences. Voters were presented with a choice of candidates, and many non-Communists were elected. The Congress of People’s Deputies elected a new Supreme Soviet of 542 members and also chose the chairman of that body, who was to be the executive president of the U.S.S.R. Congresses of People’s Deputies were also established in each republic.[NEWLINE][NEWLINE]These congresses could be legitimately described as parliaments, and they engaged in vigorous debate over the economic and political future of the country. From 1989, conflicts developed between the parliament of the U.S.S.R. and those of the individual republics, mainly over the respective powers of the centre (the U.S.S.R. government) and the republics. These conflicts were exacerbated by the resurgence of ethnic nationalism and increasing demands for autonomy and even for full independence. Following the abortive coup of August 1991, in which the CPSU was heavily implicated, the party itself was abolished.[NEWLINE][NEWLINE]By December 1991 the Union of Soviet Socialist Republics had virtually ceased to exist, and the future of its territories and peoples was uncertain. Three republics—Estonia, Latvia, and Lithuania—had achieved complete independence and were internationally recognized as sovereign states, and several others were demanding independence. Attempts were made, led by Mikhail Gorbachev, the president of the Soviet Union, to establish a new “Union of Sovereign States” with some degree of integration in foreign policy, defense, and economic affairs, but agreement among the remaining 12 republics was not achieved. Whatever the legal position, the union republics had begun to act as if they were sovereign states and were negotiating with each other, bypassing the vestigial central government. This process culminated on Dec. 8, 1991, in the signing of an agreement between the three Slav republics of Russia, Ukraine, and Belarus for the establishment of the Commonwealth of Independent States (CIS), with an agreed common policy for foreign affairs and defense. The CIS later came to include all the remaining republics except Georgia, but great difficulty was experienced in arriving at agreed policies. The future thus remained uncertain, but there could be no disagreement with the statement by the leaders of the Commonwealth that “the U.S.S.R. has ceased to exist as a geopolitical reality.”</Text>
+		</Row>
+		<!--Cities-->
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_01">
+			<Text>Leningrad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_02">
+			<Text>Kiev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_03">
+			<Text>Minsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_04">
+			<Text>Kharkov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_05">
+			<Text>Stalingrad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_06">
+			<Text>Sverdlovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_07">
+			<Text>Gorky</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_08">
+			<Text>Krasnodar</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_09">
+			<Text>Vladivostok</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_10">
+			<Text>Novosibirsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_11">
+			<Text>Krasnoyarsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_12">
+			<Text>Kuybyshev</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_13">
+			<Text>Baku</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_14">
+			<Text>Tbilisi</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_15">
+			<Text>Alma-Ata</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_16">
+			<Text>Tashkent</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_17">
+			<Text>Omsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_18">
+			<Text>Ufa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_19">
+			<Text>Chelyabinsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_20">
+			<Text>Sevastopol</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_21">
+			<Text>Molotov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_22">
+			<Text>Kaliningrad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_23">
+			<Text>Riga</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_24">
+			<Text>Tallin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_25">
+			<Text>Kazan</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_26">
+			<Text>Odessa</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_27">
+			<Text>Kirov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_28">
+			<Text>Ulyanovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_29">
+			<Text>Dnepropetrovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_30">
+			<Text>Stalino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_31">
+			<Text>Khabarovsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_32">
+			<Text>Tolyatti</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_33">
+			<Text>Barnaul</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_34">
+			<Text>Ustinov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_35">
+			<Text>Ordzonikidze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_36">
+			<Text>Ashgabat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_37">
+			<Text>Stalinabad</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_38">
+			<Text>Novokuznetsk</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_39">
+			<Text>Tselinograd</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_40">
+			<Text>Karaganda</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_41">
+			<Text>Frunze</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_42">
+			<Text>Shcherbakov</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CITY_NAME_JFD_STALIN_43">
+			<Text>Arzamas-16</Text>
+		</Row>
+		<!--Spies-->
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_0">
+			<Text>Moura</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_1">
+			<Text>Yuri</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_2">
+			<Text>Reino</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_3">
+			<Text>Konon</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_4">
+			<Text>Valery</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_5">
+			<Text>Susemihl</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_6">
+			<Text>Ain-Ervin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_7">
+			<Text>Mikhail</Text>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_8">
+			<Text>Ursula</Text>
+			<Gender>feminine</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_SPY_NAME_JFD_SOVIET_9">
+			<Text>Pantiuşa</Text>
+		</Row>
+		<!--JOSEF STALIN-->
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_UNION_STALIN">
+			<Text>Joseph Stalin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_UNION_STALIN_HEADING_1">
+			<Text>History</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_UNION_STALIN_TEXT_1">
+			<Text>His birth name was Joseph Vissarionovich Dzhugashvili, but to the world he will always be known simply as Stalin ("man of steel" in Russian). Stalin was born in 1878 to a poor Georgian family. His father was a cobbler who often beat his wife and young son. At the age of eight, Stalin began his education in the Gori Church School, where instruction was conducted in Russian and he was mocked for his Georgian accent. Stalin graduated first in his class at the age of fourteen and began attending school next at the Tiflis Theological Seminary. Stalin had no interest in becoming a priest, but the seminary was one of the few institutions of higher learning permitted in Georgia by the repressive tsarist government.[NEWLINE][NEWLINE]It was here that Stalin became involved in the revolutionary socialist movement of Russia; in 1899 he was kicked out of the school for his participation in the radical cause. For the next decade Stalin worked in the political underground of the Caucasus region, for which he was arrested and sent to temporary exile in Siberia several times. Over the years Stalin rose through the ranks of the socialist organizations, and in 1912 he gained a position on the central committee of the Bolshevik Party. He later was appointed as an editor of "Pravda," (meaning, "Truth") the main communist newspaper, which was a position with a great deal of influence.[NEWLINE][NEWLINE]Stalin played little role in the events of the 1917 Bolshevik Revolution. He and the other editors of Pravda initially supported Keresnsky's Provisional Government, and even refused to publish Lenin's articles calling for it to be overthrown. (Later, Stalin would falsely claim that he had been part of a "Party Center" which directed the October Revolution.) During the Russian Civil War, Stalin served as a military commissar on various different fronts, but he seems to have been an indifferent military man at best. It was when that conflict ended that his star began to rise.[NEWLINE][NEWLINE]In 1922 Stalin secured the position of General Secretary of the Communist Party, a post that no one else particularly wanted. Stalin recognized the potential power of this job, however, as it gave him control over appointments within the Party. Over time, Stalin built up a group of fiercely loyal followers, eventually becoming one of the most powerful men in the Party.[NEWLINE][NEWLINE]After the death of Lenin in 1924, Stalin formed a centrist ruling coalition along with Kamenev and Zinoviev. In doing so Stalin successfully outmaneuvered his enemy Trotsky, another strong contender for leadership of the USSR. In 1928 Trotsky went into exile and he was assassinated some time thereafter (it is assumed at Stalin's orders). Then Stalin turned on his former allies Kamenev and Zinoviev, driving them from power as well. By the beginning of the 1930s, Stalin had secured undisputed power over both the Communist Party and all of the Soviet Union.[NEWLINE][NEWLINE]With his enemies out of the way, Stalin could begin a thorough transformation of Russia. Up until the First World War Russia had been primarily an agrarian society, but Stalin was determined to change it into an industrial powerhouse. In 1928 he implemented the Five Year Plans, designed to force rapid industrialization upon the country at any cost. To curb the power of the prosperous independent farmers (known as "kulaks") Stalin also nationalized individual farms, replacing them with larger collective farms. Stalin's collectivization of agriculture proved to be a disaster: output actually fell, and there was a great deal of peasant resistance (which was ruthlessly crushed by the Red Army). Despite the crop shortfalls Stalin sold off the agricultural produce of the USSR to get foreign currency to pay for further industrialization, deliberately engineering a mass famine which may have killed as many as 10 million people.[NEWLINE][NEWLINE]Fearing an army plot against him, in 1936 Stalin embarked on the Great Purge, which quickly degenerated into a terrible witch hunt. Many of the old communist leaders were executed after bizarre show trials during which they confessed to outlandish crimes. At the same time the Red Army was gutted of its officer corps. Millions of innocent people died or were exiled to Siberia for no offense whatsoever. Stalin's paranoia claimed an untold number of lives before it had run its course.[NEWLINE][NEWLINE]Stalin's Soviet Union was ruthlessly authoritarian, but it had achieved its goal of industrialization. Advances were made in science, and the free provision of certain state services - including education and housing - did provide new opportunities for many millions of former peasants (although the standard of living remained extremely low compared to Western countries). Freedom of expression was nonexistent, however, and the practice of any kind of religion was made illegal.[NEWLINE][NEWLINE]During the 1930s, Stalin was convinced that Hitler's Nazi Germany was a terrible threat to the Soviet Union. He sought defensive pacts and alliances with England and France, but was soundly rebuffed by both countries. Hoping to stave off what he saw as the USSR's inevitable conflict with Germany until his country had a chance to arm itself, Stalin signed a Faustian bargain with Hitler to divide Eastern Europe between the two powers. In September of 1939 Nazi Germany invaded Poland and three weeks later the Soviet Union jumped into the conflict to claim the eastern half of the country.[NEWLINE][NEWLINE]By doing so Stalin believed that he had earned Hitler's gratitude (if not friendship), and that a German attack on the USSR did not lay in the imminent future. However, like so many other leaders Stalin totally misread Hitler, and despite increasingly frantic warnings of German soldiers massing on the borders, he was totally caught off guard when in June of 1941 Hitler launched a massive invasion. In fact, for the first days of the invasion Stalin remained convinced that it was some kind of mistake and refused to let his troops counterattack for fear of provoking Hitler! Because of Stalin's blunders the Soviets suffered enormous losses in the first few weeks.[NEWLINE][NEWLINE]With Stalin stunned into bewildered inaction by his miscalculations, it was only the sheer size of Russia that prevented the Germans from winning a quick victory. In December of 1941 winter - Russia's oldest and best ally - saved Moscow from capture. Regaining his composure, Stalin then led the Soviet Union in a bitter and gruesome struggle to the death against Nazi Germany, with countless atrocities on both sides. Stalin's transfer of heavy industry east into the Urals, combined with the unbelievable size and manpower of the Soviet Union - supported by heavy British and American fighting in the West - ultimately led to victory in 1945, when Soviet troops marched triumphantly into Berlin. The cost, however, was staggering: an estimated 10 million Russian soldiers and 20 million civilians died in the conflict.[NEWLINE][NEWLINE]By the end of the war the Red Army had overrun Eastern Europe, and once there Stalin had no intention of leaving. Despite promising to allow free elections during wartime conferences with the Americans and British, Stalin had no intention of doing anything of the sort and he set up puppet communist regimes across the region. While Tito's government in Yugoslavia successfully broke away from Stalin's bloc, the rest of the countries in Eastern Europe would spend the next three decades under the oppressive rule of the Soviet Union.[NEWLINE][NEWLINE]Despite their uneasy alliance during the recent war, the USSR remained on hostile terms with its erstwhile Western Allies. Stalin's support of the Communist Chinese and his blockade of West Berlin in 1948 helped led to the outbreak of the Cold War, a bitter period of proxy warfare and ever-growing nuclear arsenals that would drag on for fifty bleak years.[NEWLINE][NEWLINE]During his reign Stalin encouraged the development of a sycophantic cult of personality where he was worshipped as little less than a god. When he finally died in 1953 there was an enormous outpouring of genuine grief across the Soviet Union.Overall, it must be said that Stalin was successful in changing the backwards agricultural state of the tsars into a modern global superpower. No country deserves more credit for defeating Nazi Germany than the Soviet Union.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_UNION_STALIN_LIVED">
+			<Text>1878 - 1953 AD</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_UNION_STALIN_NAME">
+			<Text>Joseph Stalin</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_UNION_STALIN_SUBTITLE">
+			<Text>Leader of the Soviet Union</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIVILOPEDIA_LEADERS_JFD_SOVIET_UNION_STALIN_TITLES_1">
+			<Text>General Secretary of the Communist Party[NEWLINE][NEWLINE]Chairman of the Council of Ministers</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_DAWN_JFD_SOVIET_UNION_STALIN_TEXT">
+			<Text>We are humbled in your presence, O' glorious, mighty Stalin! You are the great leader of the Soviet Union, a power risen by your hand from the decay of the Russian Empire. Ascending through the ranks of the Communist Party, you took a harsh but decisive command over Russia's economy, transforming her into a machine of unmatched industry and war. With unyielding will, the mantle of the socialist revolution lay in firm hands, paving the way for the civilizational clash that would mark the 20th century.[NEWLINE][NEWLINE]Mighty leader, unmatched in greatness, the Russian people long for your return to power. Though the Soviet Union has fallen, its people do not forget the glory and might that once donned her. Can you once again take up the worker's cause? Can you defend the iron curtain from moral erosion? Can you build a civilization that will stand the test of time?</Text>
+		</Row>
+		<!--Responses-->
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_UNION_STALIN_FIRSTGREETING_1">
+			<Text>Greetings comrade. I am Joseph Stalin. Welcome to the Soviet Union. Revere her might well, and you might have nothing to fear from her.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_UNION_STALIN_DEFEATED_1">
+			<Text>*shakes fist*</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_UNION_STALIN_ATTACKED_HOSTILE_1">
+			<Text>You are a fool. You have spelled your own doom.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_UNION_STALIN_DEC_FRIENDSHIP_1">
+			<Text>Will you join me in making a public declaration of friendship, comrade?</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_UNION_STALIN_DENOUNCE_1">
+			<Text>Your stolen wealth will be your undoing.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_UNION_STALIN_DENOUNCE_FRIEND_1">
+			<Text>You have embarrassed our friendship for the last time.[NEWLINE][NEWLINE]([COLOR_WARNING_TEXT]They have publicly denounced us! NOTE: You are not at war.[ENDCOLOR])</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_UNION_STALIN_DOW_GENERIC_1">
+			<Text>It is time to test your war machine.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_LEADER_JFD_SOVIET_UNION_STALIN_RESPONSE_TO_BEING_DENOUNCED_1">
+			<Text>Get out, then.</Text>
+		</Row>
+		<!--THE WARSAW PACT-->
+		<Row Tag="TXT_KEY_TRAIT_JFD_SOVIET_UNION_STALIN_SHORT">
+			<Text>Warsaw Pact</Text>
+		</Row>
+		<Row Tag="TXT_KEY_TRAIT_JFD_SOVIET_UNION_STALIN">
+			<Text>Enemy units may take extra damage in your borders, or in the borders of allied City-States, or Civilizations with whom you share an Ideology. Earn [ICON_INFLUENCE] Influence per turn with City-States from which you could demand tribute.</Text>
+		</Row>
+		<!--Soviet Attrition-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SOVIET_UNION_STALIN">
+			<Text>Soviet Attrition</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_SOVIET_UNION_STALIN_HELP">
+			<Text>This unit is in enemy Soviet territory and may take additional [COLOR_NEGATIVE_TEXT]damage[ENDCOLOR] each turn!</Text>
+		</Row>
+		<!--PEOPLE'S COMMISSARIAT-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_PEOPLES_COMMISSARIAT_DESC">
+			<Text>People's Commissariat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PEOPLES_COMMISSARIAT_HELP">
+			<Text>+1 [ICON_PRODUCTION] Production per Allied City-State, increasing to +2 if this city is the Capital.[NEWLINE][NEWLINE]Reduces enemy spy stealing rate by 25%.[NEWLINE][NEWLINE]City must have a Constabulary.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PEOPLES_COMMISSARIAT_STRATEGY">
+			<Text>The People's Commissariat is the unique replacement for the Police Station for the Soviet Union. It increases the city's [ICON_PRODUCTION] Production based on the number of Allied City-States that the Soviet Union has, increasing if that city is the Capital - not unlike the normal yield bonuses afforded by City-State alliances. Maintaining a close sphere of influence will guarantee a steady flow of production. It costs an additional Maintenance, however.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDINGS_JFD_STALIN_COMMISSARIAT_TEXT">
+			<Text>The People's Commissariat was in the Soviet state the central executive body in charge of managing a particular field of state activity or a separate sector of the national economy; analogue of the ministry. As a rule, the People's Commissariat was headed by the People’s Commissar, which is part of the government – the Council of People's Commissars of the appropriate level. Commissariats were created as central organs of state administration when Soviet power was established in the republics in the territory of the former Russian Empire. </Text>
+		</Row>
+		<!--JFD: People's Commissariat-->
+		<Row Tag="TXT_KEY_BUILDING_JFD_PEOPLES_COMMISSARIAT_PRODUCTION">
+			<Text>JFD: People's Commissariat</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_JFD_PEOPLES_COMMISSARIAT_PRODUCTION_HELP">
+			<Text></Text>
+		</Row>
+		<!--IS-2-->
+		<Row Tag="TXT_KEY_UNIT_JFD_IS2">
+			<Text>IS-2</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_HELP_JFD_IS2">
+			<Text>Sturdy Tank replacement for the Soviet Union. Especially effective against Fortified Gun and Armoured Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNIT_JFD_IS2_STRATEGY">
+			<Text>The IS-2 is the unique Tank replacement for the Soviet Union. Slightly more defensive than the Tank, the IS-2 is has a Combat Bonus (15%) against fortified enemies, particularly if they are Gun or Armoured Units (10%). Use IS-2 to quickly break through enemy lines.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_UNITS_JFD_IS2_TEXT">
+			<Text>The IS tank family was a series of heavy tanks developed as a successor to the KV-series by the Soviet Union during World War II. It was named after Soviet leader Joseph Stalin. The heavy tank was designed with thick armour to counter the German 88 mm guns, and carried a main gun that was capable of defeating the German Tiger and Panther tanks. It was mainly a breakthrough tank, firing a heavy high-explosive shell that was useful against entrenchments and bunkers. The IS-2 was put into service in April 1944, and was used as a spearhead in the Battle of Berlin by the Red Army in the final stage of the war.</Text>
+		</Row>
+		<!--Guards Heavy Tank Regiment-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_IS2_1">
+			<Text>Guards Heavy Tank Regiment</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_IS2_1_HELP">
+			<Text>+15% Combat Bonus vs. Fortified Units. +10% Combat Bonus vs. Gun and Armoured Units.</Text>
+		</Row>
+		<!--Heavy Armour-->
+		<Row Tag="TXT_KEY_PROMOTION_JFD_IS2_2">
+			<Text>Heavy Armour</Text>
+		</Row>
+		<Row Tag="TXT_KEY_PROMOTION_JFD_IS2_2_HELP">
+			<Text>+20% [ICON_STRENGTH] Defensive Strength.</Text>
+		</Row>
+	</Language_en_US>
+</GameData>
